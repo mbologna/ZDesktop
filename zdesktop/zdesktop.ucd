@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="2823,2155" id="zdesktop" metadata="uml2-1.0" initialized="true" scrolledX="2023" scrolledY="273" tag="10" key="3230303630373133205A4465736B746F70">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="ZImage" location="53,486" size="495,247" id="zdesktop/ZImage" runTimeClassModel="thumbnailWidth,camera,zc,ZImage(),serialVersionUID,testIfNodeIsViewedByCamera(Ledu.umd.cs.piccolo.PNode;Ledu.umd.cs.piccolo.PCamera;),transitionScale,temp,thumbnailHeight,ZImage(Ljava.lang.String;Lzdesktop.ZContainer;Lzdesktop.ZApplicationProperties;Ledu.umd.cs.piccolo.PCamera;),paint(Ledu.umd.cs.piccolo.util.PPaintContext;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="camera" id="zdesktop/ZImage#camera"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="zdesktop/ZImage#serialVersionUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="temp" id="zdesktop/ZImage#temp"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="thumbnailHeight" id="zdesktop/ZImage#thumbnailHeight"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="thumbnailWidth" id="zdesktop/ZImage#thumbnailWidth"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="transitionScale" id="zdesktop/ZImage#transitionScale"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zc" id="zdesktop/ZImage#zc"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="472,72">
+      <children xsi:type="editmodel:MethodEditModel" name="ZImage" id="zdesktop/ZImage#ZImage()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ZImage" id="zdesktop/ZImage#ZImage(Ljava.lang.String;Lzdesktop.ZContainer;Lzdesktop.ZApplicationProperties;Ledu.umd.cs.piccolo.PCamera;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paint" id="zdesktop/ZImage#paint(Ledu.umd.cs.piccolo.util.PPaintContext;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testIfNodeIsViewedByCamera" id="zdesktop/ZImage#testIfNodeIsViewedByCamera(Ledu.umd.cs.piccolo.PNode;Ledu.umd.cs.piccolo.PCamera;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZImage->zdesktop/ZContainer" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="485,247" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZImage->zdesktop/ZApplicationProperties" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="495,123" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,310"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="zdesktop/ZImage->zdesktop/ZContainer" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="495,246" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZImage->zdesktop/ZContainer" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="495,242" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.6 //@children.7/@sourceConnections.7 //@children.4/@sourceConnections.5 //@children.4/@sourceConnections.6 //@children.8/@sourceConnections.2 //@children.8/@sourceConnections.3 //@children.2/@sourceConnections.0 //@children.2/@sourceConnections.1 //@children.2/@sourceConnections.2 //@children.4/@sourceConnections.7 //@children.7/@sourceConnections.9 //@children.8/@sourceConnections.5" name="ZProperties" location="1720,1276" size="322,859" id="zdesktop/ZProperties" runTimeClassModel="getScale(),setHeight(F),setWordWrap(Z),width,getInitialBackgroundColor(),getWordWrapColumn(),getX(),initialForegroundColor,getMargin(),finalBackgroundColor,setInitialBackgroundColor(Ljava.awt.Color;),setInitialForegroundColor(Ljava.awt.Color;),getFit(),getY(),initialBackgroundColor,getFinalBackgroundColor(),height,wordWrapColumn,finalForegroundColor,scale,path,setPath(Ljava.lang.String;),getHeight(),setWidth(F),saveZProperty(Ljava.lang.String;),setX(F),setY(F),setFit(Ljava.lang.String;),isWordWrap(),getFinalForegroundColor(),getPath(),getInitialForegroundColor(),setFinalForegroundColor(Ljava.awt.Color;),setWordWrapColumn(I),setFinalBackgroundColor(Ljava.awt.Color;),setMargin(F),setScale(F),loadZProperty(Ljava.lang.String;),fit,ZProperties(),y,getWidth(),margin,x,wordWrap">
+    <children xsi:type="editmodel:CompartmentEditModel" size="156,252">
+      <children xsi:type="editmodel:AttributeEditModel" name="finalBackgroundColor" id="zdesktop/ZProperties#finalBackgroundColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="finalForegroundColor" id="zdesktop/ZProperties#finalForegroundColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fit" id="zdesktop/ZProperties#fit"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="height" id="zdesktop/ZProperties#height"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="initialBackgroundColor" id="zdesktop/ZProperties#initialBackgroundColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="initialForegroundColor" id="zdesktop/ZProperties#initialForegroundColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="margin" id="zdesktop/ZProperties#margin"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="path" id="zdesktop/ZProperties#path"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="scale" id="zdesktop/ZProperties#scale"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="width" id="zdesktop/ZProperties#width"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wordWrap" id="zdesktop/ZProperties#wordWrap"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wordWrapColumn" id="zdesktop/ZProperties#wordWrapColumn"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="x" id="zdesktop/ZProperties#x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y" id="zdesktop/ZProperties#y"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="299,558">
+      <children xsi:type="editmodel:MethodEditModel" name="ZProperties" id="zdesktop/ZProperties#ZProperties()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFinalBackgroundColor" id="zdesktop/ZProperties#getFinalBackgroundColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFinalForegroundColor" id="zdesktop/ZProperties#getFinalForegroundColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFit" id="zdesktop/ZProperties#getFit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHeight" id="zdesktop/ZProperties#getHeight()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInitialBackgroundColor" id="zdesktop/ZProperties#getInitialBackgroundColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInitialForegroundColor" id="zdesktop/ZProperties#getInitialForegroundColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMargin" id="zdesktop/ZProperties#getMargin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPath" id="zdesktop/ZProperties#getPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getScale" id="zdesktop/ZProperties#getScale()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWidth" id="zdesktop/ZProperties#getWidth()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWordWrapColumn" id="zdesktop/ZProperties#getWordWrapColumn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getX" id="zdesktop/ZProperties#getX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getY" id="zdesktop/ZProperties#getY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isWordWrap" id="zdesktop/ZProperties#isWordWrap()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadZProperty" id="zdesktop/ZProperties#loadZProperty(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveZProperty" id="zdesktop/ZProperties#saveZProperty(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFinalBackgroundColor" id="zdesktop/ZProperties#setFinalBackgroundColor(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFinalForegroundColor" id="zdesktop/ZProperties#setFinalForegroundColor(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFit" id="zdesktop/ZProperties#setFit(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHeight" id="zdesktop/ZProperties#setHeight(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setInitialBackgroundColor" id="zdesktop/ZProperties#setInitialBackgroundColor(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setInitialForegroundColor" id="zdesktop/ZProperties#setInitialForegroundColor(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMargin" id="zdesktop/ZProperties#setMargin(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPath" id="zdesktop/ZProperties#setPath(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setScale" id="zdesktop/ZProperties#setScale(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWidth" id="zdesktop/ZProperties#setWidth(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWordWrap" id="zdesktop/ZProperties#setWordWrap(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWordWrapColumn" id="zdesktop/ZProperties#setWordWrapColumn(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setX" id="zdesktop/ZProperties#setX(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setY" id="zdesktop/ZProperties#setY(F)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.5 //@children.8/@sourceConnections.0 //@children.8/@sourceConnections.1 //@children.8/@sourceConnections.4" name="ZInputEventHandler" location="2346,513" size="457,373" id="zdesktop/ZInputEventHandler" runTimeClassModel="updateToolTip(Ledu.umd.cs.piccolo.event.PInputEvent;),zoomTo(Ledu.umd.cs.piccolo.event.PInputEvent;),current,minScale,mouseClicked(Ledu.umd.cs.piccolo.event.PInputEvent;),picked,zoomToBounds,resize(Ledu.umd.cs.piccolo.event.PInputEvent;),ZInputEventHandler(DLedu.umd.cs.piccolo.nodes.PText;Ljava.awt.Color;),zoomBack(Ledu.umd.cs.piccolo.event.PInputEvent;),maxScale,saveProperty(Ledu.umd.cs.piccolo.PNode;),scaleFactor,mouseWheelRotated(Ledu.umd.cs.piccolo.event.PInputEvent;),mouseExited(Ledu.umd.cs.piccolo.event.PInputEvent;),tooltipNode,discreteZoom(Ledu.umd.cs.piccolo.event.PInputEvent;),mouseEntered(Ledu.umd.cs.piccolo.event.PInputEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="current" id="zdesktop/ZInputEventHandler#current"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maxScale" id="zdesktop/ZInputEventHandler#maxScale"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="minScale" id="zdesktop/ZInputEventHandler#minScale"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="picked" id="zdesktop/ZInputEventHandler#picked"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="scaleFactor" id="zdesktop/ZInputEventHandler#scaleFactor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tooltipNode" id="zdesktop/ZInputEventHandler#tooltipNode"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zoomToBounds" id="zdesktop/ZInputEventHandler#zoomToBounds"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="434,198">
+      <children xsi:type="editmodel:MethodEditModel" name="ZInputEventHandler" id="zdesktop/ZInputEventHandler#ZInputEventHandler(DLedu.umd.cs.piccolo.nodes.PText;Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="discreteZoom" id="zdesktop/ZInputEventHandler#discreteZoom(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseClicked" id="zdesktop/ZInputEventHandler#mouseClicked(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseEntered" id="zdesktop/ZInputEventHandler#mouseEntered(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseExited" id="zdesktop/ZInputEventHandler#mouseExited(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseWheelRotated" id="zdesktop/ZInputEventHandler#mouseWheelRotated(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resize" id="zdesktop/ZInputEventHandler#resize(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveProperty" id="zdesktop/ZInputEventHandler#saveProperty(Ledu.umd.cs.piccolo.PNode;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateToolTip" id="zdesktop/ZInputEventHandler#updateToolTip(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoomBack" id="zdesktop/ZInputEventHandler#zoomBack(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoomTo" id="zdesktop/ZInputEventHandler#zoomTo(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZInputEventHandler->zdesktop/ZProperties" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,373" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="322,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="zdesktop/ZInputEventHandler->zdesktop/ZProperties" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,372" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="321,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZInputEventHandler->zdesktop/ZProperties" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,368" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="317,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.1 //@children.4/@sourceConnections.2" name="Functions" location="1230,50" size="202,67" id="zdesktop/Functions" runTimeClassModel="typeOfFile(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="179,18">
+      <children xsi:type="editmodel:MethodEditModel" name="typeOfFile" id="zdesktop/Functions#typeOfFile(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.0/@sourceConnections.0 //@children.0/@sourceConnections.2 //@children.0/@sourceConnections.3" name="ZContainer" location="842,1002" size="481,841" id="zdesktop/ZContainer" runTimeClassModel="ZContainer(Lzdesktop.ZProperties;Lzdesktop.ZApplicationProperties;Ledu.umd.cs.piccolo.PCamera;),dx,initialForegroundColor,finalBackgroundColor,transitionScale,dir,i,originalScale,zap,initialBackgroundColor,visited,squareSize,image,path,serialVersionUID,nSqrt,greenValue,in,nx,s,alpha,newNodeProperties,type,testIfNodeIsViewedByCamera(Ledu.umd.cs.piccolo.PNode;Ledu.umd.cs.piccolo.PCamera;),space,colorDir,redValue,fileList,sb,thumbnail,loadChildren(),text,textWrap(Ljava.lang.String;I[CC),replaced,camera,numberOfLines,ny,f,newNode,blueValue,dy,margin,paint(Ledu.umd.cs.piccolo.util.PPaintContext;),dot">
+    <children xsi:type="editmodel:CompartmentEditModel" size="177,702">
+      <children xsi:type="editmodel:AttributeEditModel" name="alpha" id="zdesktop/ZContainer#alpha"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="blueValue" id="zdesktop/ZContainer#blueValue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="camera" id="zdesktop/ZContainer#camera"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="colorDir" id="zdesktop/ZContainer#colorDir"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dir" id="zdesktop/ZContainer#dir"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dot" id="zdesktop/ZContainer#dot"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dx" id="zdesktop/ZContainer#dx"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dy" id="zdesktop/ZContainer#dy"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="f" id="zdesktop/ZContainer#f"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileList" id="zdesktop/ZContainer#fileList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="finalBackgroundColor" id="zdesktop/ZContainer#finalBackgroundColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="greenValue" id="zdesktop/ZContainer#greenValue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="i" id="zdesktop/ZContainer#i"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="image" id="zdesktop/ZContainer#image"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="in" id="zdesktop/ZContainer#in"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="initialBackgroundColor" id="zdesktop/ZContainer#initialBackgroundColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="initialForegroundColor" id="zdesktop/ZContainer#initialForegroundColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="margin" id="zdesktop/ZContainer#margin"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nSqrt" id="zdesktop/ZContainer#nSqrt"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="newNode" id="zdesktop/ZContainer#newNode"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="newNodeProperties" id="zdesktop/ZContainer#newNodeProperties"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numberOfLines" id="zdesktop/ZContainer#numberOfLines"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nx" id="zdesktop/ZContainer#nx"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ny" id="zdesktop/ZContainer#ny"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="originalScale" id="zdesktop/ZContainer#originalScale"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="path" id="zdesktop/ZContainer#path"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="redValue" id="zdesktop/ZContainer#redValue"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="replaced" id="zdesktop/ZContainer#replaced"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="s" id="zdesktop/ZContainer#s"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sb" id="zdesktop/ZContainer#sb"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="zdesktop/ZContainer#serialVersionUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="space" id="zdesktop/ZContainer#space"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="squareSize" id="zdesktop/ZContainer#squareSize"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="text" id="zdesktop/ZContainer#text"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="thumbnail" id="zdesktop/ZContainer#thumbnail"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="transitionScale" id="zdesktop/ZContainer#transitionScale"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="type" id="zdesktop/ZContainer#type"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="visited" id="zdesktop/ZContainer#visited"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zap" id="zdesktop/ZContainer#zap"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="458,90">
+      <children xsi:type="editmodel:MethodEditModel" name="ZContainer" id="zdesktop/ZContainer#ZContainer(Lzdesktop.ZProperties;Lzdesktop.ZApplicationProperties;Ledu.umd.cs.piccolo.PCamera;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadChildren" id="zdesktop/ZContainer#loadChildren()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paint" id="zdesktop/ZContainer#paint(Ledu.umd.cs.piccolo.util.PPaintContext;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="testIfNodeIsViewedByCamera" id="zdesktop/ZContainer#testIfNodeIsViewedByCamera(Ledu.umd.cs.piccolo.PNode;Ledu.umd.cs.piccolo.PCamera;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="textWrap" id="zdesktop/ZContainer#textWrap(Ljava.lang.String;I[CC)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZContainer->zdesktop/FindPropertiesFiles" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,467" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,33"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="zdesktop/ZContainer->zdesktop/ZImage" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="475,247"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZContainer->zdesktop/Functions" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="434,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,67"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZContainer->zdesktop/FindFiles" source="//@children.4" target="//@children.9" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,841" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZContainer->zdesktop/ZApplicationProperties" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.4/@children.2" label="//@children.4/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="186,535"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="zdesktop/ZContainer->zdesktop/ZProperties" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.5/@children.2" label="//@children.4/@sourceConnections.5/@children.0" sourceEnd="//@children.4/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="481,547" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,293"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZContainer->zdesktop/ZProperties" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.6/@children.2" label="//@children.4/@sourceConnections.6/@children.0" sourceEnd="//@children.4/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="481,557" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,283"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/ZContainer->zdesktop/ZProperties" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.7/@children.2" label="//@children.4/@sourceConnections.7/@children.0" sourceEnd="//@children.4/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="481,537" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,263"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.2 //@children.7/@sourceConnections.3 //@children.4/@sourceConnections.4 //@children.0/@sourceConnections.1 //@children.7/@sourceConnections.8" name="ZApplicationProperties" location="742,299" size="273,535" id="zdesktop/ZApplicationProperties" runTimeClassModel="isIgnoreZZZfiles(),setThumbnailHeight(I),transitionScale,setIgnoreZZZfiles(Z),setAlpha(F),getThumbnailHeight(),getThumbnailWidth(),setTooltipColor(Ljava.awt.Color;),getZDesktopRoot(),ZApplicationProperties(),scaleFactor,tooltipColor,thumbnailHeight,getAlpha(),getTooltipColor(),alpha,saveZConfiguration(Ljava.lang.String;),setThumbnailWidth(I),setZDesktopRoot(Ljava.lang.String;),setTransitionScale(F),setScaleFactor(F),loadZConfiguration(Ljava.lang.String;),thumbnailWidth,getTransitionScale(),getScaleFactor(),ignoreZZZfiles,zDesktopRoot">
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="alpha" id="zdesktop/ZApplicationProperties#alpha"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ignoreZZZfiles" id="zdesktop/ZApplicationProperties#ignoreZZZfiles"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="scaleFactor" id="zdesktop/ZApplicationProperties#scaleFactor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="thumbnailHeight" id="zdesktop/ZApplicationProperties#thumbnailHeight"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="thumbnailWidth" id="zdesktop/ZApplicationProperties#thumbnailWidth"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tooltipColor" id="zdesktop/ZApplicationProperties#tooltipColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="transitionScale" id="zdesktop/ZApplicationProperties#transitionScale"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zDesktopRoot" id="zdesktop/ZApplicationProperties#zDesktopRoot"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="250,342">
+      <children xsi:type="editmodel:MethodEditModel" name="ZApplicationProperties" id="zdesktop/ZApplicationProperties#ZApplicationProperties()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAlpha" id="zdesktop/ZApplicationProperties#getAlpha()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getScaleFactor" id="zdesktop/ZApplicationProperties#getScaleFactor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getThumbnailHeight" id="zdesktop/ZApplicationProperties#getThumbnailHeight()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getThumbnailWidth" id="zdesktop/ZApplicationProperties#getThumbnailWidth()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTooltipColor" id="zdesktop/ZApplicationProperties#getTooltipColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTransitionScale" id="zdesktop/ZApplicationProperties#getTransitionScale()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getZDesktopRoot" id="zdesktop/ZApplicationProperties#getZDesktopRoot()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isIgnoreZZZfiles" id="zdesktop/ZApplicationProperties#isIgnoreZZZfiles()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadZConfiguration" id="zdesktop/ZApplicationProperties#loadZConfiguration(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveZConfiguration" id="zdesktop/ZApplicationProperties#saveZConfiguration(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAlpha" id="zdesktop/ZApplicationProperties#setAlpha(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIgnoreZZZfiles" id="zdesktop/ZApplicationProperties#setIgnoreZZZfiles(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setScaleFactor" id="zdesktop/ZApplicationProperties#setScaleFactor(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setThumbnailHeight" id="zdesktop/ZApplicationProperties#setThumbnailHeight(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setThumbnailWidth" id="zdesktop/ZApplicationProperties#setThumbnailWidth(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTooltipColor" id="zdesktop/ZApplicationProperties#setTooltipColor(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTransitionScale" id="zdesktop/ZApplicationProperties#setTransitionScale(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setZDesktopRoot" id="zdesktop/ZApplicationProperties#setZDesktopRoot(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="FindPropertiesFiles" location="50,1436" size="177,67" id="zdesktop/FindPropertiesFiles" runTimeClassModel="accept(Ljava.io.File;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,18">
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="zdesktop/FindPropertiesFiles#accept(Ljava.io.File;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="1583,644" size="195,175" id="zdesktop/Main" runTimeClassModel="recursiveDelete(Ljava.lang.String;),zap,main([Ljava.lang.String;),Main(),initialize(),zp,serialVersionUID">
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="zdesktop/Main#serialVersionUID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zap" id="zdesktop/Main#zap"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zp" id="zdesktop/Main#zp"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Main" id="zdesktop/Main#Main()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="zdesktop/Main#initialize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="zdesktop/Main#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="recursiveDelete" id="zdesktop/Main#recursiveDelete(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/Main->zdesktop/ZContainer" source="//@children.7" target="//@children.4" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="481,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/Main->zdesktop/Functions" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="192,67"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="zdesktop/Main->zdesktop/ZApplicationProperties" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="273,422"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/Main->zdesktop/ZApplicationProperties" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.3/@children.2" label="//@children.7/@sourceConnections.3/@children.0" sourceEnd="//@children.7/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,87" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="273,432"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/Main->zdesktop/DragEventHandler" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.4/@children.2" label="//@children.7/@sourceConnections.4/@children.0" sourceEnd="//@children.7/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="195,165" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/Main->zdesktop/ZInputEventHandler" source="//@children.7" target="//@children.2" targetEnd="//@children.7/@sourceConnections.5/@children.2" label="//@children.7/@sourceConnections.5/@children.0" sourceEnd="//@children.7/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="195,87" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,218"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/Main->zdesktop/ZProperties" source="//@children.7" target="//@children.1" targetEnd="//@children.7/@sourceConnections.6/@children.2" label="//@children.7/@sourceConnections.6/@children.0" sourceEnd="//@children.7/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="zdesktop/Main->zdesktop/ZProperties" source="//@children.7" target="//@children.1" targetEnd="//@children.7/@sourceConnections.7/@children.2" label="//@children.7/@sourceConnections.7/@children.0" sourceEnd="//@children.7/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="38,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/Main->zdesktop/ZApplicationProperties" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.8/@children.2" label="//@children.7/@sourceConnections.8/@children.0" sourceEnd="//@children.7/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,67" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="273,412"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/Main->zdesktop/ZProperties" source="//@children.7" target="//@children.1" targetEnd="//@children.7/@sourceConnections.9/@children.2" label="//@children.7/@sourceConnections.9/@children.0" sourceEnd="//@children.7/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="8,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.4" name="DragEventHandler" location="2391,1146" size="272,139" id="zdesktop/DragEventHandler" runTimeClassModel="DragEventHandler(Lzdesktop.ZInputEventHandler;),drag(Ledu.umd.cs.piccolo.event.PInputEvent;),startDrag(Ledu.umd.cs.piccolo.event.PInputEvent;),endDrag(Ledu.umd.cs.piccolo.event.PInputEvent;),zteh">
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="zteh" id="zdesktop/DragEventHandler#zteh"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="249,72">
+      <children xsi:type="editmodel:MethodEditModel" name="DragEventHandler" id="zdesktop/DragEventHandler#DragEventHandler(Lzdesktop.ZInputEventHandler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drag" id="zdesktop/DragEventHandler#drag(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="endDrag" id="zdesktop/DragEventHandler#endDrag(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startDrag" id="zdesktop/DragEventHandler#startDrag(Ledu.umd.cs.piccolo.event.PInputEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="zdesktop/DragEventHandler->zdesktop/ZInputEventHandler" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="170,373"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/DragEventHandler->zdesktop/ZInputEventHandler" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="180,373"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="zdesktop/DragEventHandler->zdesktop/ZProperties" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,139" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="316,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/DragEventHandler->zdesktop/ZProperties" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.3/@children.2" label="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«instantiate»" size="61,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,134" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="322,4"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/DragEventHandler->zdesktop/ZInputEventHandler" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.4/@children.2" label="//@children.8/@sourceConnections.4/@children.0" sourceEnd="//@children.8/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="115,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,373"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="zdesktop/DragEventHandler->zdesktop/ZProperties" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.5/@children.2" label="//@children.8/@sourceConnections.5/@children.0" sourceEnd="//@children.8/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,134" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="307,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.3" name="FindFiles" location="763,1929" size="177,67" id="zdesktop/FindFiles" runTimeClassModel="accept(Ljava.io.File;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,18">
+      <children xsi:type="editmodel:MethodEditModel" name="accept" id="zdesktop/FindFiles#accept(Ljava.io.File;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>
